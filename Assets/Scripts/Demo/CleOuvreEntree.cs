@@ -11,16 +11,10 @@ public class CleOuvreEntree : MonoBehaviour
 
     [SerializeField] GameObject _cle;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider other){
         if(other.tag == "Player"){
             _cle.SetActive(false);
-            _porteEntree.GetComponent<Animator>().SetBool("Ouvre",true);
+            _porteEntree.GetComponent<Animator>().SetTrigger("Ouvre");
             Debug.Log("collision");
         }
 

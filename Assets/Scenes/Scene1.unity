@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 26049144}
   - component: {fileID: 26049143}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: triggerclef
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
